@@ -1,0 +1,15 @@
+replicaCount: 2
+
+image:
+  repository: jasmine150720/vdt2024-react
+  pullPolicy: IfNotPresent
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 100Mi
+
+service:
+  type: NodePort
+  port: 9333
+  nodePort: 30100
