@@ -12,4 +12,4 @@ resources:
 service:
   type: NodePort
   port: 9333
-  nodePort: 30100
+  nodePort: 30101
