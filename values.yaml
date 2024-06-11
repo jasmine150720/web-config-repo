@@ -1,7 +1,8 @@
-replicaCount: 2
+replicaCount: 1
 
 image:
   repository: jasmine150720/vdt2024-react
+  tag: latest
   pullPolicy: IfNotPresent
 
 resources:
@@ -11,5 +12,6 @@ resources:
 
 service:
   type: NodePort
-  port: 9333
-  nodePort: 30101
+  port: 3000
+  nodePort: 30100
+  
