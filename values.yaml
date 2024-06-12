@@ -4,6 +4,10 @@ image:
   repository: jasmine150720/vdt2024-react
   tag: latest
   pullPolicy: IfNotPresent
+  
+api:
+  host: api
+  port: 80
 
 resources:
   requests:
