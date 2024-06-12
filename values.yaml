@@ -2,12 +2,9 @@ replicaCount: 1
 
 image:
   repository: jasmine150720/vdt2024-react
-  tag: latest
+  tag: v3
   pullPolicy: IfNotPresent
   
-api:
-  host: api
-  port: 80
 
 resources:
   requests:
